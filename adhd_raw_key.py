@@ -9,7 +9,7 @@ import pandas as pd
 caars = caars_real_key
 #path to the caars template
 path = r'C:\Users\agleo\Dropbox\Anton\Experiments\2018\Stop-signal task summer-fall 2018\data\Keypress\test_Anton\template_CAARS_SL.csv'                     # use the path
-#path = r'/Users/agleontiev/Documents/templates/template_CAARS_SL.csv'
+
 caars_template = pd.read_csv(path)
 
 #path to the caars questions
